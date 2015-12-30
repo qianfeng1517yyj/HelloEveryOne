@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4ADD5CC1BE845E5008B58CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADD5CB1BE845E5008B58CC /* main.m */; };
+		C4ADD5CF1BE845E5008B58CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADD5CE1BE845E5008B58CC /* AppDelegate.m */; };
+		C4ADD5D11BE845E5008B58CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ADD5D01BE845E5008B58CC /* Assets.xcassets */; };
+		C4ADD5D41BE845E5008B58CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ADD5D21BE845E5008B58CC /* LaunchScreen.storyboard */; };
+		C4ADD5DD1BE845F3008B58CC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADD5DC1BE845F3008B58CC /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C4ADD5E21BE85747008B58CC /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ADD5DE1BE85747008B58CC /* call.png */; settings = {ASSET_TAGS = (); }; };
+		C4ADD5E31BE85747008B58CC /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ADD5DF1BE85747008B58CC /* smile.png */; settings = {ASSET_TAGS = (); }; };
+		C4ADD5E41BE85747008B58CC /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ADD5E01BE85747008B58CC /* start.png */; settings = {ASSET_TAGS = (); }; };
+		C4ADD5E51BE85747008B58CC /* webChat.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ADD5E11BE85747008B58CC /* webChat.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4ADD5C71BE845E5008B58CC /* D1-UIButtonBaseAttributes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D1-UIButtonBaseAttributes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ADD5CB1BE845E5008B58CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4ADD5CD1BE845E5008B58CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4ADD5CE1BE845E5008B58CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4ADD5D01BE845E5008B58CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4ADD5D31BE845E5008B58CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4ADD5D51BE845E5008B58CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ADD5DB1BE845F3008B58CC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C4ADD5DC1BE845F3008B58CC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C4ADD5DE1BE85747008B58CC /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		C4ADD5DF1BE85747008B58CC /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		C4ADD5E01BE85747008B58CC /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		C4ADD5E11BE85747008B58CC /* webChat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webChat.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4ADD5C41BE845E5008B58CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4ADD5BE1BE845E4008B58CC = {
+			isa = PBXGroup;
+			children = (
+				C4ADD5C91BE845E5008B58CC /* D1-UIButtonBaseAttributes */,
+				C4ADD5C81BE845E5008B58CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4ADD5C81BE845E5008B58CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADD5C71BE845E5008B58CC /* D1-UIButtonBaseAttributes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4ADD5C91BE845E5008B58CC /* D1-UIButtonBaseAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADD5DE1BE85747008B58CC /* call.png */,
+				C4ADD5DF1BE85747008B58CC /* smile.png */,
+				C4ADD5E01BE85747008B58CC /* start.png */,
+				C4ADD5E11BE85747008B58CC /* webChat.png */,
+				C4ADD5DB1BE845F3008B58CC /* RootViewController.h */,
+				C4ADD5DC1BE845F3008B58CC /* RootViewController.m */,
+				C4ADD5CD1BE845E5008B58CC /* AppDelegate.h */,
+				C4ADD5CE1BE845E5008B58CC /* AppDelegate.m */,
+				C4ADD5D01BE845E5008B58CC /* Assets.xcassets */,
+				C4ADD5D21BE845E5008B58CC /* LaunchScreen.storyboard */,
+				C4ADD5D51BE845E5008B58CC /* Info.plist */,
+				C4ADD5CA1BE845E5008B58CC /* Supporting Files */,
+			);
+			path = "D1-UIButtonBaseAttributes";
+			sourceTree = "<group>";
+		};
+		C4ADD5CA1BE845E5008B58CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADD5CB1BE845E5008B58CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4ADD5C61BE845E5008B58CC /* D1-UIButtonBaseAttributes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ADD5D81BE845E5008B58CC /* Build configuration list for PBXNativeTarget "D1-UIButtonBaseAttributes" */;
+			buildPhases = (
+				C4ADD5C31BE845E5008B58CC /* Sources */,
+				C4ADD5C41BE845E5008B58CC /* Frameworks */,
+				C4ADD5C51BE845E5008B58CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D1-UIButtonBaseAttributes";
+			productName = "D1-UIButtonBaseAttributes";
+			productReference = C4ADD5C71BE845E5008B58CC /* D1-UIButtonBaseAttributes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4ADD5BF1BE845E4008B58CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Jerry;
+				TargetAttributes = {
+					C4ADD5C61BE845E5008B58CC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C4ADD5C21BE845E4008B58CC /* Build configuration list for PBXProject "D1-UIButtonBaseAttributes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4ADD5BE1BE845E4008B58CC;
+			productRefGroup = C4ADD5C81BE845E5008B58CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4ADD5C61BE845E5008B58CC /* D1-UIButtonBaseAttributes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4ADD5C51BE845E5008B58CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ADD5D11BE845E5008B58CC /* Assets.xcassets in Resources */,
+				C4ADD5D41BE845E5008B58CC /* LaunchScreen.storyboard in Resources */,
+				C4ADD5E51BE85747008B58CC /* webChat.png in Resources */,
+				C4ADD5E41BE85747008B58CC /* start.png in Resources */,
+				C4ADD5E31BE85747008B58CC /* smile.png in Resources */,
+				C4ADD5E21BE85747008B58CC /* call.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4ADD5C31BE845E5008B58CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ADD5CF1BE845E5008B58CC /* AppDelegate.m in Sources */,
+				C4ADD5CC1BE845E5008B58CC /* main.m in Sources */,
+				C4ADD5DD1BE845F3008B58CC /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4ADD5D21BE845E5008B58CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4ADD5D31BE845E5008B58CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4ADD5D61BE845E5008B58CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4ADD5D71BE845E5008B58CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4ADD5D91BE845E5008B58CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "D1-UIButtonBaseAttributes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.1000phone.com.D1-UIButtonBaseAttributes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4ADD5DA1BE845E5008B58CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "D1-UIButtonBaseAttributes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.1000phone.com.D1-UIButtonBaseAttributes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4ADD5C21BE845E4008B58CC /* Build configuration list for PBXProject "D1-UIButtonBaseAttributes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ADD5D61BE845E5008B58CC /* Debug */,
+				C4ADD5D71BE845E5008B58CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4ADD5D81BE845E5008B58CC /* Build configuration list for PBXNativeTarget "D1-UIButtonBaseAttributes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ADD5D91BE845E5008B58CC /* Debug */,
+				C4ADD5DA1BE845E5008B58CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4ADD5BF1BE845E4008B58CC /* Project object */;
+}
